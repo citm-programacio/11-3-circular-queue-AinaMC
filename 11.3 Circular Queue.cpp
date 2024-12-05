@@ -71,7 +71,7 @@ public:
         //    array[i] = aux;
         //}
         //array[capacity] = ultimo;
-        front++;
+        front++; //Al ser un array circular solo necesitamos mover el front para solo imprimir uno mas
         return size--; //Como restamos un valor debemos disminuir el size
     }
 
